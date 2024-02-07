@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+.about-section{
+    margin-top: 5% ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-description h1{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.about-description h3{
+    font-family: 'Diphylleia', serif;
+    font-size: 1.2vw;
+}
+
+.about-description span{
+    border-bottom: 5px solid #73C299;
+}
+
+.about-heading{
+  margin-left: 47%;
+}
+
+.about-title{
+    color: #73C299;
+    padding: 5px;
+    margin-left: 50%;
+    font-weight: 600;
+}
+
+.about-photo{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.about-photo img {
+    height: 60%;
+    width: 70%;
+}
+
+.details{
+    display: flex;
+    gap: 2.5vw;
+    margin-top: 5%;
+}
+
+.bold{
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+.animation{
+  opacity: 0;
+  animation: animation 5s forwards;
+}
+
+@keyframes animation {
+  from {
+      opacity: 0;
+      transform: translateX(-20%);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@media screen and (max-width:768px) {
+    .about-description h1{
+        font-size: 2.5vw;
+    }
+}
+
+/* Team.css */
+.Team-title{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 10%;
+    opacity: 0;
+    animation: animated 6s forwards;
+}
+
+.Team-portfolio{
+  margin: 1% 15% 5% 15%;
+  opacity: 0;
+    animation: animated 6s forwards;
+}
+
+.img_design{
+    width: 15vw;
+    height: 15vw;
+}
+
+@keyframes animated{
+  from {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@media screen and (max-width:768px) {
+    .Team-portfolio{
+        margin: 5% 10% 5% 10%;
+        opacity: 0;
+          animation: animated 6s forwards;
+          font-size: 1.5vw;
+      }
+      
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+/* Hero.css */
+.About_Hero{
+    margin: 10% 20%;
+}
+
+.Hero_tittle{
+    text-align: center;
+    color: #73C299;
+    font-family: Lily Script One;
+}
+
+  

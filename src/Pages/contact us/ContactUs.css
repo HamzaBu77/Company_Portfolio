@@ -1,0 +1,43 @@
+.Contact_Form{
+    margin: 5% 20%;
+    background-color: black;
+    padding: 10% 5%;
+    color: white;
+}
+
+.Contact_Form a{
+    text-decoration: none;
+    color: white;
+}
+
+.Form_container{
+    margin: 3% 25%;
+}
+
+.Form_container input, .Form_container textarea {
+    width: 130%;
+    height: 300%;
+}
+
+.project_details{
+    margin-top: 5%;
+}
+
+.margin-left{
+    margin-left: 45%;
+}
+
+.Form_title{
+   text-align: center;
+   margin: 5%;
+}
+
+.Form_title span{
+    color: #73C299;
+    font-weight: 600;
+}
+
+.icon{
+    color: #73C299;
+    margin-right: 5%;
+}
